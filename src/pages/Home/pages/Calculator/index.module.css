@@ -1,0 +1,12 @@
+
+.TableContainer {
+  overflow: 'hidden';
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.Title {
+  text-align: center;
+  font-family: Insanibu;
+}

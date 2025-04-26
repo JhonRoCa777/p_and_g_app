@@ -1,0 +1,12 @@
+
+.TitleContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Title {
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}

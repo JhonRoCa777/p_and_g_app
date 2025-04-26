@@ -1,0 +1,9 @@
+
+.SpinnerContainer {
+  height: 40px;
+}
+
+.Title {
+  font-family: var(--primary-font);
+  margin: 0;
+}

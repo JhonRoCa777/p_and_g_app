@@ -1,0 +1,1 @@
+export const BASE_URL = '/p_and_g';

@@ -1,0 +1,19 @@
+
+.Container {
+  height: 50px;
+
+  background-color: var(--primary-color);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.Base {
+  height: 50px;
+
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+}

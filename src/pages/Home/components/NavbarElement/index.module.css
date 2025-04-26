@@ -1,0 +1,25 @@
+
+.Container {
+  background-color: var(--primary-color);
+}
+
+.Logo {
+  object-fit: cover;
+  object-position: center center;
+}
+
+.Nav {
+  text-align: center;
+  flex-direction: column !important;
+}
+
+.Link {
+  color: var(--secondary-color);
+  padding: 0;
+}
+
+.ExitContainer {
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 6px;
+}

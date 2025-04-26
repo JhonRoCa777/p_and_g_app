@@ -1,0 +1,15 @@
+
+.PesosCol {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border: transparent;
+}
+
+.CenterItemCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-left: transparent;
+}

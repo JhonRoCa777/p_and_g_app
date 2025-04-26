@@ -1,0 +1,95 @@
+
+@font-face {
+  font-family: "Insanibu";
+  src: url("/fonts/insaniburger/Insanibu.ttf") format("truetype");
+}
+
+:root {
+  --primary-font: 'Insanibu';
+
+  --primary-color: #FC0404;
+  --secondary-color: white;
+  --tertiary-color: #ff7a59;
+  --success-color: #054534;
+  --warning-color: #F49C04;
+  --danger-color: #C00000;
+  --disabled-color: gray;
+}
+
+th {
+  padding: 0px 5px !important;
+  font-size: 0.9rem;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: lightgray !important;
+  z-index: 1;
+}
+
+.accordion-header button {
+  font-size: 1.2rem;
+  margin: 0px auto !important;
+  padding: 0.75rem;
+}
+
+.Btn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.25rem !important;
+  font-weight: bold !important;
+
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em black;
+}
+
+.Btn:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em black;
+}
+
+.Btn:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em black;
+}
+
+.BtnPrimary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  border-width: 3px;
+  color: white !important;
+}
+
+.BtnTertiary {
+  background-color: var(--tertiary-color) !important;
+  border-color: var(--tertiary-color) !important;
+  border-width: 3px;
+  color: white !important;
+}
+
+.BtnSuceess {
+  background-color: var(--success-color) !important;
+  border-color: var(--success-color) !important;
+  color: white !important;
+}
+
+.BtnWarning {
+  background-color: var(--warning-color) !important;
+  border-color: var(--warning-color) !important;
+  color: white !important;
+}
+
+.BtnDanger {
+  background-color: var(--danger-color) !important;
+  border-color: var(--danger-color) !important;
+  color: white !important;
+}
+
+.BtnDisabled {
+  background-color: var(--disabled-color) !important;
+  border-color: var(--disabled-color) !important;
+  color: white !important;
+}
